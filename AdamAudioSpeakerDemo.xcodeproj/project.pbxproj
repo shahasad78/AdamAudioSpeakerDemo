@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB25BA591F62731600B2D9C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA581F62731600B2D9C1 /* AppDelegate.swift */; };
+		CB25BA5B1F62731600B2D9C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA5A1F62731600B2D9C1 /* ViewController.swift */; };
+		CB25BA5E1F62731600B2D9C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25BA5C1F62731600B2D9C1 /* Main.storyboard */; };
+		CB25BA601F62731600B2D9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB25BA5F1F62731600B2D9C1 /* Assets.xcassets */; };
+		CB25BA631F62731600B2D9C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25BA611F62731600B2D9C1 /* LaunchScreen.storyboard */; };
+		CB25BA6E1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA6D1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift */; };
+		CB25BA791F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA781F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB25BA6A1F62731600B2D9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB25BA4D1F62731600B2D9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB25BA541F62731600B2D9C1;
+			remoteInfo = AdamAudioSpeakerDemo;
+		};
+		CB25BA751F62731600B2D9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB25BA4D1F62731600B2D9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB25BA541F62731600B2D9C1;
+			remoteInfo = AdamAudioSpeakerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB25BA551F62731600B2D9C1 /* AdamAudioSpeakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdamAudioSpeakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25BA581F62731600B2D9C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB25BA5A1F62731600B2D9C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB25BA5D1F62731600B2D9C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB25BA5F1F62731600B2D9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB25BA621F62731600B2D9C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB25BA641F62731600B2D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB25BA691F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamAudioSpeakerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25BA6D1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamAudioSpeakerDemoTests.swift; sourceTree = "<group>"; };
+		CB25BA6F1F62731600B2D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB25BA741F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamAudioSpeakerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB25BA781F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamAudioSpeakerDemoUITests.swift; sourceTree = "<group>"; };
+		CB25BA7A1F62731600B2D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB25BA521F62731600B2D9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA661F62731600B2D9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA711F62731600B2D9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB25BA4C1F62731600B2D9C1 = {
+			isa = PBXGroup;
+			children = (
+				CB25BA571F62731600B2D9C1 /* AdamAudioSpeakerDemo */,
+				CB25BA6C1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests */,
+				CB25BA771F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests */,
+				CB25BA561F62731600B2D9C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB25BA561F62731600B2D9C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB25BA551F62731600B2D9C1 /* AdamAudioSpeakerDemo.app */,
+				CB25BA691F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.xctest */,
+				CB25BA741F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB25BA571F62731600B2D9C1 /* AdamAudioSpeakerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB25BA581F62731600B2D9C1 /* AppDelegate.swift */,
+				CB25BA5A1F62731600B2D9C1 /* ViewController.swift */,
+				CB25BA5C1F62731600B2D9C1 /* Main.storyboard */,
+				CB25BA5F1F62731600B2D9C1 /* Assets.xcassets */,
+				CB25BA611F62731600B2D9C1 /* LaunchScreen.storyboard */,
+				CB25BA641F62731600B2D9C1 /* Info.plist */,
+			);
+			path = AdamAudioSpeakerDemo;
+			sourceTree = "<group>";
+		};
+		CB25BA6C1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB25BA6D1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift */,
+				CB25BA6F1F62731600B2D9C1 /* Info.plist */,
+			);
+			path = AdamAudioSpeakerDemoTests;
+			sourceTree = "<group>";
+		};
+		CB25BA771F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB25BA781F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift */,
+				CB25BA7A1F62731600B2D9C1 /* Info.plist */,
+			);
+			path = AdamAudioSpeakerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB25BA541F62731600B2D9C1 /* AdamAudioSpeakerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB25BA7D1F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemo" */;
+			buildPhases = (
+				CB25BA511F62731600B2D9C1 /* Sources */,
+				CB25BA521F62731600B2D9C1 /* Frameworks */,
+				CB25BA531F62731600B2D9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdamAudioSpeakerDemo;
+			productName = AdamAudioSpeakerDemo;
+			productReference = CB25BA551F62731600B2D9C1 /* AdamAudioSpeakerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB25BA681F62731600B2D9C1 /* AdamAudioSpeakerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB25BA801F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoTests" */;
+			buildPhases = (
+				CB25BA651F62731600B2D9C1 /* Sources */,
+				CB25BA661F62731600B2D9C1 /* Frameworks */,
+				CB25BA671F62731600B2D9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB25BA6B1F62731600B2D9C1 /* PBXTargetDependency */,
+			);
+			name = AdamAudioSpeakerDemoTests;
+			productName = AdamAudioSpeakerDemoTests;
+			productReference = CB25BA691F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB25BA731F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB25BA831F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoUITests" */;
+			buildPhases = (
+				CB25BA701F62731600B2D9C1 /* Sources */,
+				CB25BA711F62731600B2D9C1 /* Frameworks */,
+				CB25BA721F62731600B2D9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB25BA761F62731600B2D9C1 /* PBXTargetDependency */,
+			);
+			name = AdamAudioSpeakerDemoUITests;
+			productName = AdamAudioSpeakerDemoUITests;
+			productReference = CB25BA741F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB25BA4D1F62731600B2D9C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Phantom Universal Media Productions";
+				TargetAttributes = {
+					CB25BA541F62731600B2D9C1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8NT726EKLP;
+						ProvisioningStyle = Automatic;
+					};
+					CB25BA681F62731600B2D9C1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8NT726EKLP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB25BA541F62731600B2D9C1;
+					};
+					CB25BA731F62731600B2D9C1 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8NT726EKLP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB25BA541F62731600B2D9C1;
+					};
+				};
+			};
+			buildConfigurationList = CB25BA501F62731600B2D9C1 /* Build configuration list for PBXProject "AdamAudioSpeakerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB25BA4C1F62731600B2D9C1;
+			productRefGroup = CB25BA561F62731600B2D9C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB25BA541F62731600B2D9C1 /* AdamAudioSpeakerDemo */,
+				CB25BA681F62731600B2D9C1 /* AdamAudioSpeakerDemoTests */,
+				CB25BA731F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB25BA531F62731600B2D9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25BA631F62731600B2D9C1 /* LaunchScreen.storyboard in Resources */,
+				CB25BA601F62731600B2D9C1 /* Assets.xcassets in Resources */,
+				CB25BA5E1F62731600B2D9C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA671F62731600B2D9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA721F62731600B2D9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB25BA511F62731600B2D9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25BA5B1F62731600B2D9C1 /* ViewController.swift in Sources */,
+				CB25BA591F62731600B2D9C1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA651F62731600B2D9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25BA6E1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB25BA701F62731600B2D9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB25BA791F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB25BA6B1F62731600B2D9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB25BA541F62731600B2D9C1 /* AdamAudioSpeakerDemo */;
+			targetProxy = CB25BA6A1F62731600B2D9C1 /* PBXContainerItemProxy */;
+		};
+		CB25BA761F62731600B2D9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB25BA541F62731600B2D9C1 /* AdamAudioSpeakerDemo */;
+			targetProxy = CB25BA751F62731600B2D9C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB25BA5C1F62731600B2D9C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB25BA5D1F62731600B2D9C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB25BA611F62731600B2D9C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB25BA621F62731600B2D9C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB25BA7B1F62731600B2D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB25BA7C1F62731600B2D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB25BA7E1F62731600B2D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB25BA7F1F62731600B2D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB25BA811F62731600B2D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdamAudioSpeakerDemo.app/AdamAudioSpeakerDemo";
+			};
+			name = Debug;
+		};
+		CB25BA821F62731600B2D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdamAudioSpeakerDemo.app/AdamAudioSpeakerDemo";
+			};
+			name = Release;
+		};
+		CB25BA841F62731600B2D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdamAudioSpeakerDemo;
+			};
+			name = Debug;
+		};
+		CB25BA851F62731600B2D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8NT726EKLP;
+				INFOPLIST_FILE = AdamAudioSpeakerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamaudio.speakerdemo.AdamAudioSpeakerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AdamAudioSpeakerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB25BA501F62731600B2D9C1 /* Build configuration list for PBXProject "AdamAudioSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25BA7B1F62731600B2D9C1 /* Debug */,
+				CB25BA7C1F62731600B2D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB25BA7D1F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25BA7E1F62731600B2D9C1 /* Debug */,
+				CB25BA7F1F62731600B2D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB25BA801F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25BA811F62731600B2D9C1 /* Debug */,
+				CB25BA821F62731600B2D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB25BA831F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB25BA841F62731600B2D9C1 /* Debug */,
+				CB25BA851F62731600B2D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB25BA4D1F62731600B2D9C1 /* Project object */;
+}
