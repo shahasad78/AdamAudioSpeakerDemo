@@ -14,6 +14,7 @@
 		CB25BA631F62731600B2D9C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB25BA611F62731600B2D9C1 /* LaunchScreen.storyboard */; };
 		CB25BA6E1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA6D1F62731600B2D9C1 /* AdamAudioSpeakerDemoTests.swift */; };
 		CB25BA791F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB25BA781F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift */; };
+		CBD3D7951F662A2400E9C01A /* SpeakerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD3D7941F662A2400E9C01A /* SpeakerButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		CB25BA741F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdamAudioSpeakerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB25BA781F62731600B2D9C1 /* AdamAudioSpeakerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdamAudioSpeakerDemoUITests.swift; sourceTree = "<group>"; };
 		CB25BA7A1F62731600B2D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD3D7941F662A2400E9C01A /* SpeakerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerButton.swift; sourceTree = "<group>"; };
+		CBD3D7961F663B1700E9C01A /* FetteEngD.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FetteEngD.otf; sourceTree = "<group>"; };
+		CBD3D7971F663B7B00E9C01A /* FontFont - DINPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontFont - DINPro-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,10 @@
 		CB25BA571F62731600B2D9C1 /* AdamAudioSpeakerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CBD3D7911F66298300E9C01A /* Common */,
+				CBD3D78E1F6628B500E9C01A /* Resources */,
 				CB25BA581F62731600B2D9C1 /* AppDelegate.swift */,
-				CB25BA5A1F62731600B2D9C1 /* ViewController.swift */,
 				CB25BA5C1F62731600B2D9C1 /* Main.storyboard */,
-				CB25BA5F1F62731600B2D9C1 /* Assets.xcassets */,
 				CB25BA611F62731600B2D9C1 /* LaunchScreen.storyboard */,
 				CB25BA641F62731600B2D9C1 /* Info.plist */,
 			);
@@ -123,6 +127,49 @@
 				CB25BA7A1F62731600B2D9C1 /* Info.plist */,
 			);
 			path = AdamAudioSpeakerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CBD3D78E1F6628B500E9C01A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3D7901F66296A00E9C01A /* Fonts */,
+				CB25BA5F1F62731600B2D9C1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBD3D7901F66296A00E9C01A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3D7971F663B7B00E9C01A /* FontFont - DINPro-Bold.otf */,
+				CBD3D7961F663B1700E9C01A /* FetteEngD.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CBD3D7911F66298300E9C01A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3D7931F6629A100E9C01A /* ViewControllers */,
+				CBD3D7921F66299500E9C01A /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CBD3D7921F66299500E9C01A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBD3D7941F662A2400E9C01A /* SpeakerButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CBD3D7931F6629A100E9C01A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB25BA5A1F62731600B2D9C1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBD3D7951F662A2400E9C01A /* SpeakerButton.swift in Sources */,
 				CB25BA5B1F62731600B2D9C1 /* ViewController.swift in Sources */,
 				CB25BA591F62731600B2D9C1 /* AppDelegate.swift in Sources */,
 			);
@@ -516,6 +564,7 @@
 				CB25BA7F1F62731600B2D9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB25BA801F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +573,7 @@
 				CB25BA821F62731600B2D9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB25BA831F62731600B2D9C1 /* Build configuration list for PBXNativeTarget "AdamAudioSpeakerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +582,7 @@
 				CB25BA851F62731600B2D9C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
